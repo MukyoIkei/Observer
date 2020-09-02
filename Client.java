@@ -7,6 +7,7 @@ public class Client {
         Observer o2 = new JyuurokushinHyouji();
         s.attach(o1);
         s.attach(o2);
+        s.detach(o1);
         int i = 0;
         while (i < 100) {
             s.putValue(i);
